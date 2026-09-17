@@ -10,6 +10,8 @@ To maintain a clean and scalable repository for multiple UI/UX designs, follow t
 1. **New App Ideas**: When a new project or app idea is provided, create a dedicated project folder in the root directory (e.g., `/app-name`).
 2. **File Placement**: All design files, generated UI code, and specific design system guidelines for that app must be stored exclusively inside its dedicated folder. 
 3. **No Root Clutter**: Avoid creating individual component or screen files directly in the root directory. Keep the root reserved for global configurations and this `agents.md` guideline.
+4. **Reference Material & Redesigns**: When tasked with creating alternative UI/UX designs based on an existing app or website link, download all related reference materials (images, icons, html snapshots, etc.) and save them directly into that project's folder. This keeps reference files tightly coupled to the project.
+5. **Git Hygiene**: Always use `.gitignore` properly. Ensure that any large reference files, unnecessary downloads, or environment-specific configurations are ignored so they don't bloat the repository.
 
 ## Tools & UI Generation
 - **Stitch MCP**: We use the Stitch MCP server to generate and refine UI components. Always leverage the Stitch toolset when creating new visual interfaces or layouts.
